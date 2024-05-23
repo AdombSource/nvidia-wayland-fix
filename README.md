@@ -3,10 +3,12 @@ This is a config file that fixes black screen problem on wayland with nvidia dri
 
 # Tutorial
 Install git on your system(if you don't have already)
-run these commands:
+run these commands(it will reboot your system):
 
-git clone https://github.com/AdombSource/nvidia-wayland-fix.git 
+git clone https://github.com/AdombSource/nvidia-wayland-fix.git
+
 cd nvidia-wayland-fix
+
 sudo mv nvidia.conf /etc/modprobe.d
 
 reboot
